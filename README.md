@@ -36,6 +36,8 @@ Every answer logs route, tools called, sources
 Structured JSON logs with trace IDs
 
 
+![LendIQ high-level design](docs/images/hld-component-flow.svg)
+
 Core principle: the LLM orchestrates and explains; deterministic systems compute. Full architecture discussion, HLD and LLD in /docs.
 Tech Stack
 Python 3.11 · LangGraph · Anthropic API · ChromaDB · sentence-transformers · SQLite → PostgreSQL · FastAPI · Streamlit · pytest · Docker
